@@ -33,9 +33,9 @@
         </activity>
 
 
-    <activity android:name="com.example.tests.TestMainActivity" >
+         <activity android:name=".TestMainActivity" >
 
-    </activity>
+         </activity>
 
 
         <meta-data

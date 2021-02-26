@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.tests.TestMainActivity;
+import com.example.sleeptight.TestMainActivity;
 
 public class FirstFragment extends Fragment {
 
@@ -69,6 +69,42 @@ public class FirstFragment extends Fragment {
                     } else {
                         Toast.makeText(getActivity().getApplicationContext(), "You already did this!", Toast.LENGTH_SHORT).show();
                     }
+
+            }
+        });
+
+        test2=(Button) getView().findViewById(R.id.button4);
+
+
+        test2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(getArguments()!=null) {
+                    test1_finished = getArguments().getBoolean("test2_finished");}
+                if (!test1_finished) {
+                    Intent it_to_cognitive_test = new Intent(getActivity(), TestMainActivity.class);
+                    startActivityForResult(it_to_cognitive_test, 1);
+                } else {
+                    Toast.makeText(getActivity().getApplicationContext(), "You already did this!", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
+        test3=(Button) getView().findViewById(R.id.button5);
+
+
+        test3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(getArguments()!=null) {
+                    test1_finished = getArguments().getBoolean("test3_finished");}
+                if (!test1_finished) {
+                    Intent it_to_cognitive_test = new Intent(getActivity(), TestMainActivity.class);
+                    startActivityForResult(it_to_cognitive_test, 1);
+                } else {
+                    Toast.makeText(getActivity().getApplicationContext(), "You already did this!", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });

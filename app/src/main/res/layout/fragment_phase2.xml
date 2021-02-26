@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phase2Fragment">
+
+    <TableLayout
+        android:layout_width="401dp"
+        android:layout_height="541dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline13">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha8"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha9"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha10"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:backgroundTint="#FFFFFF"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha11"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha12"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha13"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha14"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha15"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha16"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha17"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha18"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha19"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha20"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:shadowColor="@color/ourColor"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:backgroundTint="#FFFFFF"
+                app:iconTint="#FFFFFF"
+                app:rippleColor="@color/white"
+                app:strokeColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha21"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha22"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha23"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha24"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha25"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha26"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha27"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha28"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha29"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha30"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha31"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha32"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha33"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha34"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha35"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha36"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha37"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha38"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha39"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha40"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/alpha41"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha42"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha43"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha44"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/alpha45"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="E"
+                android:textColor="#6B5656"
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF" />
+        </TableRow>
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Touch all the Fs !"
+        android:textColor="#6B5656"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

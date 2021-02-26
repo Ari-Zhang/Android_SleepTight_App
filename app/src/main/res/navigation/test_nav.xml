@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test_nav"
+    app:startDestination="@id/beginFragment">
+
+    <fragment
+        android:id="@+id/phase1Fragment"
+        android:name="com.example.sleeptight.Phase1Fragment"
+        android:label="fragment_phase1"
+        tools:layout="@layout/fragment_phase1" >
+        <action
+            android:id="@+id/action_phase1Fragment_to_phase2Fragment"
+            app:destination="@id/phase2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phase2Fragment"
+        android:name="com.example.sleeptight.Phase2Fragment"
+        android:label="fragment_phase2"
+        tools:layout="@layout/fragment_phase2" >
+        <action
+            android:id="@+id/action_phase2Fragment_to_phase3Fragment"
+            app:destination="@id/phase3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phase3Fragment"
+        android:name="com.example.sleeptight.Phase3Fragment"
+        android:label="fragment_phase3"
+        tools:layout="@layout/fragment_phase3" >
+        <action
+            android:id="@+id/action_phase3Fragment_to_winFragment"
+            app:destination="@id/winFragment" />
+        <action
+            android:id="@+id/action_phase3Fragment_to_loseFragment"
+            app:destination="@id/loseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="com.example.sleeptight.instructionFragment"
+        android:label="fragment_instruction"
+        tools:layout="@layout/fragment_instruction" >
+        <action
+            android:id="@+id/action_instructionFragment_to_phase1Fragment"
+            app:destination="@id/phase1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/beginFragment"
+        android:name="com.example.sleeptight.BeginFragment"
+        android:label="fragment_begin"
+        tools:layout="@layout/fragment_begin" >
+        <action
+            android:id="@+id/action_beginFragment_to_phase1Fragment"
+            app:destination="@id/phase1Fragment" />
+        <action
+            android:id="@+id/action_beginFragment_to_instructionFragment"
+            app:destination="@id/instructionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.example.sleeptight.WinFragment"
+        android:label="fragment_end"
+        tools:layout="@layout/fragment_end" >
+        <action
+            android:id="@+id/action_winFragment_to_endFragment3"
+            app:destination="@id/endFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/loseFragment"
+        android:name="com.example.sleeptight.LoseFragment"
+        android:label="fragment_lose"
+        tools:layout="@layout/fragment_lose" >
+        <action
+            android:id="@+id/action_loseFragment_to_endFragment3"
+            app:destination="@id/endFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/endFragment3"
+        android:name="com.example.sleeptight.EndFragment"
+        android:label="fragment_end2"
+        tools:layout="@layout/fragment_end2" />
+</navigation>
