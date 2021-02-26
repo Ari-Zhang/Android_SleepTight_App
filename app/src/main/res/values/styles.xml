@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Widget.Theme.SleepTight.ActionBar.Fullscreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.Theme.SleepTight.ButtonBar.Fullscreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

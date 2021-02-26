@@ -1,0 +1,3 @@
+include ':cognitiveTest'
+include ':app'
+rootProject.name = "SleepTight"

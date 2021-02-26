@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tests</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instruction">In this test, you will see a grid in which 3 dots will appear. Your task is that to memorize the location of the 3 dots. You only have 15s max to remember the location.\n
+    After that, you will see a 5*9 grid with Fs and Es, you task is to find all the Es and touch them.\n
+    Finally, you will see a blank grid without any dot, your task is to touch the location of the 3 dots you see at the first trail.\n
+    Good luck!</string>
+    <string name="remember_the_dot_locations">Remember the dot locations!</string>
+    <string name="todo">TODO</string>
+    <string name="bad_sleep_ngood_luck_next_time">Bad sleep?\nGood luck next time!</string>
+    <string name="submit_my_result">Submit my result</string>
+    <string name="wrong_answer">Wrong answer</string>
+</resources>

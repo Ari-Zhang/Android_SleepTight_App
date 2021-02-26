@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EveningActivity">
+
+
+    <ScrollView
+        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/evening"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="left"
+                android:text="For Evening"
+                android:textColor="#000000"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="400dp"
+                android:layout_height="125dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="Has anything happened recently that can thought to affect tour sleep, such as unexpected events or news, etc. ?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <RadioGroup
+                android:id="@+id/choice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="400dp"
+                android:layout_height="34dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="If so, what are them? "
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/a2"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:hint="your privacy will be well protected, feel free to say anything!"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="How would you rate your health condition during the day?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBar6"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:alpha="5"
+                android:max="4"
+                android:progress="0"
+                android:scrollbarSize="15dp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/Bar6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:text="1                         2                         3                         4                         5" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="1. Excellent    2. Good    3. Neither good nor bad    4. Bad    5. Very bad" />
+            <TextView
+                android:id="@+id/q6"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="How was the day with regard to stress?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBar2"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:alpha="5"
+                android:max="4"
+                android:progress="0"
+                android:scrollbarSize="15dp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:text="1                         2                         3                         4                         5" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="1. No stress at all    2. Little stress    3. Some stress, but manageable    4. High stress    5. Very high stress" />
+            <TextView
+                android:id="@+id/q7"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="How was the day with regard to mental loading?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBar7"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:alpha="5"
+                android:max="4"
+                android:progress="0"
+                android:scrollbarSize="15dp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:text="1                         2                         3                         4                         5" />
+
+            <TextView
+                android:id="@+id/Bar7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="1. No load at all    2. Little load    3. Some load, but manageable    4. High load    5. Very high load" />
+            <TextView
+                android:id="@+id/q8"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="How do you predict tomorrow will be regard to stress?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBar8"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:alpha="5"
+                android:max="4"
+                android:progress="0"
+                android:scrollbarSize="15dp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/tBar8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:text="1                         2                         3                         4                         5" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="1. No stress at all    2. Little stress    3. Some stress, but manageable    4. High stress    5. Very high stress" />
+            <TextView
+                android:id="@+id/q9"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text="Do you feel anxious/stressed now (going to bed)?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/seekBar9"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:alpha="5"
+                android:max="4"
+                android:progress="0"
+                android:scrollbarSize="15dp"
+                tools:ignore="NewApi" />
+
+            <TextView
+                android:id="@+id/Bar9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:text="1                         2                         3                         4                         5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="1. Not at all    2. A little    3. Some    4. Pretty    5. A lot" />
+
+            <Button
+                android:id="@+id/done_eve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/done" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
