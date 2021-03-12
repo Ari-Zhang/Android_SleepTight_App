@@ -24,6 +24,10 @@ public class Morning implements Serializable {
 
     private int awaken;
 
+    public Morning() {
+
+    }
+
     public Morning(String date, String sleeptime, String getuptime, int sleepstress, int hardtosleep, int howsleep, int cannotsleep, int prematurely, int awaken) {
         this.date = date;
         this.sleeptime = sleeptime;

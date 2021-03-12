@@ -53,12 +53,14 @@ public class FirstFragment extends Fragment {
             public void onClick(View v) {
                 Intent i = new Intent(getActivity(), EveningActivity.class);
                 startActivity(i);
+
             }
         });
         test1=(Button) getView().findViewById(R.id.button2);
 
 
         test1.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 if(getArguments()!=null) {
